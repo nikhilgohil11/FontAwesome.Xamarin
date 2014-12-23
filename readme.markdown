@@ -1,6 +1,6 @@
 #FontAwesome.Xamarin
 
-This is a simple library to help when using [FontAwesome](http://fortawesome.github.io/Font-Awesome/) with Xamarin.iOS. All v4.0.3 icons from the [cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/) are included.
+This is a simple library to help when using [FontAwesome](http://fortawesome.github.io/Font-Awesome/) with Xamarin.iOS. All v4.2.0 icons from the [cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/) are included.
 
 ##Getting started
 
