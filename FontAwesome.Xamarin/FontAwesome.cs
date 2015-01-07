@@ -33,7 +33,1317 @@ namespace FontAwesomeXamarin
 		public static UIFont Font (float size) {
 			return UIFont.FromName ("FontAwesome", size);
 		}
+
+		public static string FontAwesomeIconStringForIconIdentifier(string identifier){
+			switch(identifier){
+			case "fa-adjust":
+				return FAAdjust;
+			case "fa-adn":
+				return FAAdn;
+			case "fa-align-center":
+				return FAAlignCenter;
+			case "fa-align-justify":
+				return FAAlignJustify;
+			case "fa-align-left":
+				return FAAlignLeft;
+			case "fa-align-right":
+				return FAAlignRight;
+			case "fa-ambulance":
+				return FAAmbulance;
+			case "fa-anchor":
+				return FAAnchor;
+			case "fa-android":
+				return FAAndroid;
+			case "fa-angellist":
+				return FAAngelList;
+			case "fa-angle-double-down":
+				return FAAngleDoubleDown;
+			case "fa-angle-double-left":
+				return FAAngleDoubleLeft;
+			case "fa-angle-double-right":
+				return FAAngleDoubleRight;
+			case "fa-angle-double-up":
+				return FAAngleDoubleUp;
+			case "fa-angle-down":
+				return FAAngleDown;
+			case "fa-angle-left":
+				return FAAngleLeft;
+			case "fa-angle-right":
+				return FAAngleRight;
+			case "fa-angle-up":
+				return FAAngleUp;
+			case "fa-apple":
+				return FAApple;
+			case "fa-archive":
+				return FAArchive;
+			case "fa-area-chart":
+				return FAAreaChart;
+			case "fa-arrow-circle-down":
+				return FAArrowCircleDown;
+			case "fa-arrow-circle-left":
+				return FAArrowCircleLeft;
+			case "fa-arrow-circle-o-down":
+				return FAArrowCircleODown;
+			case "fa-arrow-circle-o-left":
+				return FAArrowCircleOLeft;
+			case "fa-arrow-circle-o-right":
+				return FAArrowCircleORight;
+			case "fa-arrow-circle-o-up":
+				return FAArrowCircleOUp;
+			case "fa-arrow-circle-right":
+				return FAArrowCircleRight;
+			case "fa-arrow-circle-up":
+				return FAArrowCircleUp;
+			case "fa-arrow-down":
+				return FAArrowDown;
+			case "fa-arrow-left":
+				return FAArrowLeft;
+			case "fa-arrow-right":
+				return FAArrowRight;
+			case "fa-arrow-up":
+				return FAArrowUp;
+			case "fa-arrows":
+				return FAArrows;
+			case "fa-arrows-alt":
+				return FAArrowsAlt;
+			case "fa-arrows-h":
+				return FAArrowsH;
+			case "fa-arrows-v":
+				return FAArrowsV;
+			case "fa-asterisk":
+				return FAAsterisk;
+			case "fa-at":
+				return FAAt;
+			case "fa-automobile":
+				return FAAutomobile;
+			case "fa-backward":
+				return FABackward;
+			case "fa-ban":
+				return FABan;
+			case "fa-bank":
+				return FABank;
+			case "fa-bar-chart":
+				return FABarChart;
+			case "fa-bar-chart-o":
+				return FABarChartO;
+			case "fa-bar-code":
+				return FABarCode;
+			case "fa-bars":
+				return FABars;
+			case "fa-beer":
+				return FABeer;
+			case "fa-behance":
+				return FABehance;
+			case "fa-behance-square":
+				return FABehanceSquare;
+			case "fa-bell":
+				return FABell;
+			case "fa-bell-o":
+				return FABellO;
+			case "fa-bell-slash":
+				return FABellSlash;
+			case "fa-bell-slash-o":
+				return FABellSlashO;
+			case "fa-bicycle":
+				return FABicycle;
+			case "fa-binoculars":
+				return FABinoculars;
+			case "fa-birthday-cake":
+				return FABirthdayCake;
+			case "fa-bitbucket":
+				return FABitbucket;
+			case "fa-bitbucket-square":
+				return FABitbucketSquare;
+			case "fa-bitcoin":
+				return FABitcoin;
+			case "fa-bold":
+				return FABold;
+			case "fa-bolt":
+				return FABolt;
+			case "fa-bomb":
+				return FABomb;
+			case "fa-book":
+				return FABook;
+			case "fa-bookmark":
+				return FABookmark;
+			case "fa-bookmark-o":
+				return FABookmarkO;
+			case "fa-briefcase":
+				return FABriefcase;
+			case "fa-btc":
+				return FABtc;
+			case "fa-bug":
+				return FABug;
+			case "fa-building":
+				return FABuilding;
+			case "fa-building-o":
+				return FABuildingO;
+			case "fa-bullhorn":
+				return FABullhorn;
+			case "fa-bullseye":
+				return FABullseye;
+			case "fa-bus":
+				return FABus;
+			case "fa-cab":
+				return FACab;
+			case "fa-calculator":
+				return FACalculator;
+			case "fa-calendar":
+				return FACalendar;
+			case "fa-calendar-o":
+				return FACalendarO;
+			case "fa-camera":
+				return FACamera;
+			case "fa-camera-retro":
+				return FACameraRetro;
+			case "fa-car":
+				return FACar;
+			case "fa-caret-down":
+				return FACaretDown;
+			case "fa-caret-left":
+				return FACaretLeft;
+			case "fa-caret-right":
+				return FACaretRight;
+			case "fa-caret-square-o-down":
+				return FACaretSquareODown;
+			case "fa-caret-square-o-left":
+				return FACaretSquareOLeft;
+			case "fa-caret-square-o-right":
+				return FACaretSquareORight;
+			case "fa-caret-square-o-up":
+				return FACaretSquareOUp;
+			case "fa-caret-up":
+				return FACaretUp;
+			case "fa-cc":
+				return FACC;
+			case "fa-cc-amex":
+				return FACCAmex;
+			case "fa-cc-discover":
+				return FACCDiscover;
+			case "fa-cc-mastercard":
+				return FACCMastercard;
+			case "fa-cc-paypal":
+				return FACCPaypal;
+			case "fa-cc-stripe":
+				return FACCStripe;
+			case "fa-cc-visa":
+				return FACCVisa;
+			case "fa-certificate":
+				return FACertificate;
+			case "fa-chain":
+				return FAChain;
+			case "fa-chain-broken":
+				return FAChainBroken;
+			case "fa-check":
+				return FACheck;
+			case "fa-check-circle":
+				return FACheckCircle;
+			case "fa-check-circle-o":
+				return FACheckCircleO;
+			case "fa-check-square":
+				return FACheckSquare;
+			case "fa-check-square-o":
+				return FACheckSquareO;
+			case "fa-chevron-circle-down":
+				return FAChevronCircleDown;
+			case "fa-chevron-circle-left":
+				return FAChevronCircleLeft;
+			case "fa-chevron-circle-right":
+				return FAChevronCircleRight;
+			case "fa-chevron-circle-up":
+				return FAChevronCircleUp;
+			case "fa-chevron-down":
+				return FAChevronDown;
+			case "fa-chevron-left":
+				return FAChevronLeft;
+			case "fa-chevron-right":
+				return FAChevronRight;
+			case "fa-chevron-up":
+				return FAChevronUp;
+			case "fa-child":
+				return FAChild;
+			case "fa-circle":
+				return FACircle;
+			case "fa-circle-o":
+				return FACircleO;
+			case "fa-circle-o-notch":
+				return FACircleONotch;
+			case "FACircleThin":
+				return FACircleThin;
+			case "fa-clipboard":
+				return FAClipboard;
+			case "fa-clock-o":
+				return FAClockO;
+			case "fa-close":
+				return FAClose;
+			case "fa-cloud":
+				return FACloud;
+			case "fa-cloud-download":
+				return FACloudDownload;
+			case "fa-cloud-upload":
+				return FACloudUpload;
+			case "fa-cny":
+				return FACny;
+			case "fa-code":
+				return FACode;
+			case "fa-code-fork":
+				return FACodeFork;
+			case "fa-codepen":
+				return FACodepen;
+			case "fa-coffee":
+				return FACoffee;
+			case "fa-cog":
+				return FACog;
+			case "fa-cogs":
+				return FACogs;
+			case "fa-columns":
+				return FAColumns;
+			case "fa-comment":
+				return FAComment;
+			case "fa-comment-o":
+				return FACommentO;
+			case "fa-comments":
+				return FAComments;
+			case "fa-comments-o":
+				return FACommentsO;
+			case "fa-compass":
+				return FACompass;
+			case "fa-compress":
+				return FACompress;
+			case "fa-copy":
+				return FACopy;
+			case "fa-copyright":
+				return FACopyright;
+			case "fa-credit-card":
+				return FACreditCard;
+			case "fa-crop":
+				return FACrop;
+			case "fa-crosshairs":
+				return FACrosshairs;
+			case "fa-css3":
+				return FACSS3;
+			case "fa-cube":
+				return FACube;
+			case "fa-cubes":
+				return FACubes;
+			case "fa-cut":
+				return FACut;
+			case "fa-cutlery":
+				return FACutlery;
+			case "fa-dashboard":
+				return FADashboard;
+			case "fa-database":
+				return FADatabase;
+			case "fa-dedent":
+				return FADedent;
+			case "fa-delicious":
+				return FADelicious;
+			case "fa-desktop":
+				return FADesktop;
+			case "fa-deviantart":
+				return FADeviantart;
+			case "fa-digg":
+				return FADigg;
+			case "fa-dollar":
+				return FADollar;
+			case "fa-dot-circle-o":
+				return FADotCircleO;
+			case "fa-download":
+				return FADownload;
+			case "fa-dribbble":
+				return FADribbble;
+			case "fa-dropbox":
+				return FADropbox;
+			case "fa-drupal":
+				return FADrupal;
+			case "fa-edit":
+				return FAEdit;
+			case "fa-eject":
+				return FAEject;
+			case "fa-ellipsis-h":
+				return FAEllipsisH;
+			case "fa-ellipsis-v":
+				return FAEllipsisV;
+			case "fa-empire":
+				return FAEmpire;
+			case "fa-envelope":
+				return FAEnvelope;
+			case "fa-envelope-o":
+				return FAEnvelopeO;
+			case "fa-envelope-square":
+				return FAEnvelopeSquare;
+			case "fa-eraser":
+				return FAEraser;
+			case "fa-eur":
+				return FAEur;
+			case "fa-euro":
+				return FAEuro;
+			case "fa-exchange":
+				return FAExchange;
+			case "fa-exclamation":
+				return FAExclamation;
+			case "fa-exclamation-circle":
+				return FAExclamationCircle;
+			case "fa-exclamation-triangle":
+				return FAExclamationTriangle;
+			case "fa-expand":
+				return FAExpand;
+			case "fa-external-link":
+				return FAExternalLink;
+			case "fa-external-linkSquare":
+				return FAExternalLinkSquare;
+			case "fa-eye":
+				return FAEye;
+			case "fa-eye-slash":
+				return FAEyeSlash;
+			case "fa-eye-dropper":
+				return FAEyeDropper;
+			case "fa-facebook":
+				return FAFacebook;
+			case "fa-facebook-square":
+				return FAFacebookSquare;
+			case "fa-fast-backward":
+				return FAFastBackward;
+			case "fa-fast-forward":
+				return FAFastForward;
+			case "fa-fax":
+				return FAFax;
+			case "fa-female":
+				return FAFemale;
+			case "fa-fighter-jet":
+				return FAFighterJet;
+			case "fa-file":
+				return FAFile;
+			case "fa-file-archive-o":
+				return FAFileArchiveO;
+			case "fa-file-audio-o":
+				return FAFileAudioO;
+			case "fa-file-code-o":
+				return FAFileCodeO;
+			case "fa-file-excel-o":
+				return FAFileExcelO;
+			case "fa-file-image-o":
+				return FAFileImageO;
+			case "fa-file-movie-o":
+				return FAFileMovieO;
+			case "fa-file-o":
+				return FAFileO;
+			case "fa-file-pdf-o":
+				return FAFilePdfO;
+			case "fa-file-photo-o":
+				return FAFilePhotoO;
+			case "fa-file-picture-o":
+				return FAFilePictureO;
+			case "fa-file-powerpoint-o":
+				return FAFilePowerpointO;
+			case "fa-file-sound-o":
+				return FAFileSoundO;
+			case "fa-file-text":
+				return FAFileText;
+			case "fa-file-text-o":
+				return FAFileTextO;
+			case "fa-file-video-o":
+				return FAFileVideoO;
+			case "fa-file-word-o":
+				return FAFileWordO;
+			case "fa-file-zip-o":
+				return FAFileZipO;
+			case "fa-files-o":
+				return FAFilesO;
+			case "fa-film":
+				return FAFilm;
+			case "fa-filter":
+				return FAFilter;
+			case "fa-fire":
+				return FAFire;
+			case "fa-fire-extinguisher":
+				return FAFireExtinguisher;
+			case "fa-flag":
+				return FAFlag;
+			case "fa-flag-checkered":
+				return FAFlagCheckered;
+			case "fa-flag-o":
+				return FAFlagO;
+			case "fa-flash":
+				return FAFlash;
+			case "fa-flask":
+				return FAFlask;
+			case "fa-flickr":
+				return FAFlickr;
+			case "fa-floppy-o":
+				return FAFloppyO;
+			case "fa-folder":
+				return FAFolder;
+			case "fa-folder-o":
+				return FAFolderO;
+			case "fa-folder-open":
+				return FAFolderOpen;
+			case "fa-folder-open-o":
+				return FAFolderOpenO;
+			case "fa-font":
+				return FAFont;
+			case "fa-forward":
+				return FAForward;
+			case "fa-foursquare":
+				return FAFoursquare;
+			case "fa-frown-o":
+				return FAFrownO;
+			case "fa-futbol-o":
+				return FAFutbolO;
+			case "fa-gamepad":
+				return FAGamepad;
+			case "fa-gavel":
+				return FAGavel;
+			case "fa-gbp":
+				return FAGbp;
+			case "fa-ge":
+				return FAGE;
+			case "fa-gear":
+				return FAGear;
+			case "fa-gears":
+				return FAGears;
+			case "fa-gift":
+				return FAGift;
+			case "fa-git":
+				return FAGit;
+			case "fa-git-square":
+				return FAGitSquare;
+			case "fa-github":
+				return FAGithub;
+			case "fa-github-alt":
+				return FAGithubAlt;
+			case "fa-github-square":
+				return FAGithubSquare;
+			case "fa-gittip":
+				return FAGittip;
+			case "fa-glass":
+				return FAGlass;
+			case "fa-globe":
+				return FAGlobe;
+			case "fa-google":
+				return FAGoogle;
+			case "fa-google-plus":
+				return FAGooglePlus;
+			case "fa-google-plus-square":
+				return FAGooglePlusSquare;
+			case "fa-google-wallet":
+				return FAGoogleWallet;
+	
+			case "fa-graduation-cap":
+				return FAGraduationCap;
+			case "fa-group":
+				return FAGroup;
+			case "fa-h-square":
+				return FAHSquare;
+			case "fa-hacker-news":
+				return FAHackerNews;
+			case "fa-hand-o-down":
+				return FAHandODown;
+			case "fa-hand-o-left":
+				return FAHandOLeft;
+			case "fa-hand-o-right":
+				return FAHandORight;
+			case "fa-hand-o-up":
+				return FAHandOUp;
+			case "fa-hdd-o":
+				return FAHddO;
+			case "fa-header":
+				return FAHeader;
+			case "fa-headphones":
+				return FAHeadphones;
+			case "fa-heart":
+				return FAHeart;
+			case "fa-heart-o":
+				return FAHeartO;
+			case "fa-history":
+				return FAHistory;
+			case "fa-home":
+				return FAHome;
+			case "fa-hospital-o":
+				return FAHospitalO;
+			case "fa-html5":
+				return FAHtml5;
+			case "fa-ils":
+				return FAIls;
+			case "fa-image":
+				return FAImage;
+			case "fa-inbox":
+				return FAInbox;
+			case "fa-indent":
+				return FAIndent;
+			case "fa-info":
+				return FAInfo;
+			case "fa-info-circle":
+				return FAInfoCircle;
+			case "fa-inr":
+				return FAINR;
+			case "fa-instagram":
+				return FAInstagram;
+			case "fa-institution":
+				return FAInstitution;
+			case "fa-ioxhost":
+				return FAIoxhost;
+			case "fa-italic":
+				return FAItalic;
+			case "fa-joomla":
+				return FAJoomla;
+			case "fa-jpy":
+				return FAJPY;
+			case "fa-jsfiddle":
+				return FAJSFiddle;
+			case "fa-key":
+				return FAKey;
+			case "fa-keyboard-o":
+				return FAKeyboardO;
+			case "fa-krw":
+				return FAKrw;
+			case "fa-language":
+				return FALanguage;
+			case "fa-laptop":
+				return FALaptop;
+			case "fa-lastfm":
+				return FALastfm;
+			case "fa-lastfm-square":
+				return FALastfmSquare;
+			case "fa-leaf":
+				return FALeaf;
+			case "fa-legal":
+				return FALegal;
+			case "fa-lemon-o":
+				return FALemonO;
+			case "fa-level-down":
+				return FALevelDown;
+			case "fa-level-up":
+				return FALevelUp;
+			case "fa-life-bouy":
+				return FALifeBouy;
+			case "fa-life-ring":
+				return FALifeRing;
+			case "fa-life-saver":
+				return FALifeSaver;
+			case "fa-lightbulb-o":
+				return FALightbulbO;
+			case "fa-line-chart":
+				return FALineChart;
+			case "fa-link":
+				return FALink;
+			case "fa-linkedin":
+				return FALinkedin;
+			case "fa-linkedin-square":
+				return FALinkedinSquare;
+			case "fa-linux":
+				return FALinux;
+			case "fa-list":
+				return FAList;
+			case "fa-list-alt":
+				return FAListAlt;
+			case "fa-list-ol":
+				return FAListOl;
+			case "fa-list-ul":
+				return FAListUl;
+			case "fa-location-arrow":
+				return FALocationArrow;
+			case "fa-lock":
+				return FALock;
+			case "fa-long-arrow-down":
+				return FALongArrowDown;
+			case "fa-long-arrow-left":
+				return FALongArrowLeft;
+			case "fa-long-arrow-right":
+				return FALongArrowRight;
+			case "fa-long-arrow-up":
+				return FALongArrowUp;
+			case "fa-magic":
+				return FAMagic;
+			case "fa-magnet":
+				return FAMagnet;
+			case "fa-mail-forward":
+				return FAMailForward;
+			case "fa-mail-reply":
+				return FAMailReply;
+			case "fa-mail-reply-all":
+				return FAMailReplyAll;
+			case "fa-male":
+				return FAMale;
+			case "fa-map-marker":
+				return FAMapMarker;
+			case "fa-maxcdn":
+				return FAMaxcdn;
+			case "fa-meanpath":
+				return FAMeanpath;
+			case "fa-medkit":
+				return FAMedkit;
+			case "fa-meh-o":
+				return FAMehO;
+			case "fa-microphone":
+				return FAMicrophone;
+			case "fa-microphone-slash":
+				return FAMicrophoneSlash;
+			case "fa-minus":
+				return FAMinus;
+			case "fa-minus-circle":
+				return FAMinusCircle;
+			case "fa-minus-square":
+				return FAMinusSquare;
+			case "fa-minus-square-o":
+				return FAMinusSquareO;
+			case "fa-mobile":
+				return FAMobile;
+			case "fa-mobile-phone":
+				return FAMobilePhone;
+			case "fa-money":
+				return FAMoney;
+			case "fa-moon-o":
+				return FAMoonO;
+			case "fa-mortar-board":
+				return FAMortarBoard;
+			case "fa-music":
+				return FAMusic;
+			case "fa-navicon":
+				return FANavicon;
+			case "fa-newspaper-o":
+				return FANewsPaperO;
+			case "fa-openid":
+				return FAOpenid;
+			case "fa-outdent":
+				return FAOutdent;
+			case "fa-pagelines":
+				return FAPagelines;
+			case "fa-paint-brush":
+				return FAPaintBrush;
+			case "fa-paper-plane":
+				return FAPaperPlane;
+			case "fa-paper-plane-o":
+				return FAPaperPlaneO;
+			case "fa-paper-clip":
+				return FAPaperClip;
+			case "fa-paragraph":
+				return FAParagraph;
+			case "fa-paste":
+				return FAPaste;
+			case "fa-pause":
+				return FAPause;
+			case "fa-paw":
+				return FAPaw;
+			case "fa-paypal":
+				return FAPaypal;
+			case "fa-pencil":
+				return FAPencil;
+			case "fa-pencil-square":
+				return FAPencilSquare;
+			case "fa-pencil-square-o": 
+				return FAPencilSquareO; 
+			case "fa-phone": 
+				return FAPhone; 
+			case "fa-phone-square": 
+				return FAPhoneSquare; 
+			case "fa-photo": 
+				return FAPhoto; 
+
+			case "fa-picture-o": 
+				return FAPictureO; 
+
+			case "fa-pie-chart": 
+				return FAPieChart; 
+
+			case "fa-pied-piper": 
+				return FAPiedPiper; 
+
+			case "fa-pied-piper-alt":
+				return FAPiedPiperAlt; 
+
+			case "fa-pinterest":
+				return FAPinterest;
+
+			case "fa-pinterest-square": 
+				return FAPinterestSquare; 
+
+			case "fa-plane": 
+				return FAPlane; 
+
+			case "fa-play": 
+				return FAPlay; 
+
+			case "fa-play-circle":
+				return FAPlayCircle; 
+
+			case "fa-play-circle-o":
+				return FAPlayCircleO; 
+
+			case "fa-plug":
+				return FAPlug;
+
+			case "fa-plus": 
+				return FAPlus;
+
+			case "fa-plus-circle": 
+				return FAPlusCircle; 
+
+			case "fa-plus-square": 
+				return FAPlusSquare; 
+
+			case "fa-plus-square-o": 
+				return FAPlusSquareO; 
+
+			case "fa-power-off":
+				return FAPowerOff;
+
+			case "fa-print":
+				return FAPrint; 
+
+			case "fa-puzzle-piece": 
+				return FAPuzzlePiece;
+
+			case "fa-qq":
+				return FAQq; 
+
+			case "fa-qrcode":
+				return FAQRCode; 
+
+			case "fa-question": 
+				return FAQuestion; 
+
+			case "fa-question-circle": 
+				return FAQuestionCircle; 
+
+			case "fa-quote-left":
+				return FAQuoteLeft = "\uf10d";
+
+			case "fa-quote-right":
+				return FAQuoteRight; 
+
+			case "fa-ra":
+				return FARA;
+
+			case "fa-random": 
+				return FARandom; 
+			case "fa-rebel":
+				return FARebel; 
+
+			case "fa-recycle": 
+				return FARecycle; 
+
+			case "fa-reddit": 
+				return FAReddit; 
+
+			case "fa-reddit-square":
+				return FARedditSquare; 
+
+			case "fa-refresh": 
+				return FARefresh; 
+
+			case "fa-remove":
+				return FARemove; 
+
+			case "fa-renren": 
+				return FARenren; 
+
+			case "fa-reorder": 
+				return FAReorder;
+
+			case "fa-repeat":
+				return FARepeat;
+
+			case "fa-reply":
+				return FAReply;
+
+			case "fa-replyAll":
+				return FAReplyAll;
+
+			case "fa-retweet":
+				return FARetweet;
+
+			case "fa-rmb": 
+				return FARMB; 
+
+			case "fa-road8": 
+				return FARoad;
+
+			case "fa-rocket":
+				return FARocket;
+
+			case "fa-rotate-eft":
+				return FARotateLeft;
+
+			case "fa-rotate-right":
+				return FARotateRight = "\uf01e";
+
+			case "fa-rouble":
+				return FARouble;
+
+			case "fa-rss":
+				return FARSS;
+
+			case "fa-rss-square":
+				return FARSSSquare;
+
+			case "fa-rub": 
+				return FARub;
+
+			case "fa-ruble":
+				return FARuble;
+
+			case "fa-rupee":
+				return FARupee;
+
+
+			case "fa-save":
+				return FASave;
+
+			case "fa-scissors":
+				return FAScissors;
+
+			case "fa-search":
+				return FASearch;
+
+			case "fa-search-minus":
+				return FASearchMinus;
+
+			case "fa-search-plus":
+				return FASearchPlus;
+
+			case "fa-send":
+				return FASend;
+
+			case "fa-send-o":
+				return FASendO;
+
+			case "fa-share": 
+				return FAShare;
+
+			case "fa-share-alt":
+				return FAShareAlt;
+
+			case "fa-share-alt-square":
+				return FAShareAltSquare;
+
+			case "fa-share-square":
+				return FAShareSquare;
+
+			case "fa-share-square-o":
+				return FAShareSquareO;
+
+			case "fa-shekel":
+				return FAShekel;
+
+			case "fa-sheqel":
+				return FASheqel;
+
+			case "fa-shield":
+				return FAShield;
+
+			case "fa-shopping-cart":
+				return FAShoppingCart;
+
+			case "fa-sign-in":
+				return FASignIn;
+
+
+			case "fa-sign-out":
+				return FASignOut;
+
+			case "fa-signal":
+				return FASignal;
+
+			case "fa-sitemap":
+				return FASitemap;
+
+			case "fa-skype":
+				return FASkype;
+
+			case "fa-slack":
+				return FASlack;
+
+			case "fa-sliders":
+				return FASliders;
+
+			case "fa-slideshare":
+				return FASlideshare;
+
+			case "fa-smile-o":
+				return FASmileO;
+
+			case "fa-soccer-ball-o":
+				return FASoccerBallO;
+
+			case "fa-sort-alpha-asc":
+				return FASortAlphaAsc;
+
+			case "fa-sort-alpha-desc":
+				return FASortAlphaDesc;
+
+			case "fa-sort-amount-asc":
+				return FASortAmountAsc;
+
+			case "fa-sort-amount-desc":
+				return FASortAmountDesc;
+
+			case "fa-sort-asc":
+				return FASortAsc;
+
+			case "fa-sort-desc":
+				return FASortDesc;
+
+			case "fa-sort-down":
+				return FASortDown;
+
+			case "fa-sort-numeric-asc":
+				return FASortNumericAsc;
+
+			case "fa-sort-numeric-desc":
+				return FASortNumericDesc;
+
+			case "fa-sort-up": 
+				return FASortUp;
+
+			case "fa-sound-cloud":
+				return FASoundCloud;
+
+			case "fa-space-shuttle":
+				return FASpaceShuttle;
+
+			case "fa-spinner":
+				return FASpinner;
+
+			case "fa-spoon":
+				return FASpoon;
+
+			case "fa-spotify":
+				return FASpotify;
+
+			case "fa-square":
+				return FASquare;
+
+			case "fa-square-o":
+				return FASquareO;
+
+			case "fa-stack-exchange":
+				return FAStackExchange;
+
+			case "fa-stack-overflow":
+				return FAStackOverflow;
+
+			case "fa-star": 
+				return FAStar;
+
+			case "fa-star-half":
+				return FAStarHalf;
+
+			case "fa-star-half-empty":
+				return FAStarHalfEmpty;
+
+			case "fa-star-half-full":
+				return FAstarHalfFull;
+
+			case "fa-star-half-o":
+				return FAStarHalfO;
+
+			case "fa-star-o": 
+				return FAStarO;
+
+			case "fa-steam":
+				return FASteam;
+
+			case "fa-steam-square":
+				return FASteamSquare;
+
+			case "fa-step-backward":
+				return FAStepBackward;
+
+			case "fa-step-forward":
+				return FAStepForward;
+
+			case "fa-stethoscope":
+				return FAStethoscope;
+
+			case "fa-stop": 
+				return FAStop;
+
+			case "fa-strikethrough":
+				return FAStrikethrough;
+
+			case "fa-stumbleupon":
+				return FAStumbleupon;
+
+			case "fa-stumbleupon-circle":
+				return FAStumbleuponCircle;
+
+			case "fa-subscript": 
+				return FASubscript;
+
+			case "fa-suitcase":
+				return FASuitcase;
+
+			case "fa-sun-o":
+				return FASunO;
+
+			case "fa-superscript":
+				return FASuperscript;
+
+			case "fa-support":
+				return FASupport;
+
+
+			case "fa-table":
+				return FATable;
+
+			case "fa-tablet":
+				return FATablet;
+
+			case "fa-tachometer":
+				return FATachometer;
+
+			case "fa-tag":
+				return FATag;
+
+			case "fa-tags":
+				return FATags;
+
+			case "fa-tasks":
+				return FATasks;
+
+			case "fa-taxi":
+				return FATaxi;
+
+			case "fa-tencent-weibo":
+				return FATencentWeibo;
+
+			case "fa-terminal":
+				return FATerminal;
+
+			case "fa-text-height":
+				return FATextHeight;
+
+			case "fa-text-width":
+				return FATextWidth;
+
+			case "fa-th":
+				return FATH;
+
+			case "fa-tf-large":
+				return FATHLarge;
+
+			case "fa-th-list":
+				return FATHList;
+
+			case "fa-thumb-tack":
+				return FAThumbTack;
+
+			case "fa-thumbs-down":
+				return FAThumbsDown;
+
+			case "fa-thumbs-o-down":
+				return FAThumbsODown;
+
+			case "fa-thumbs-o-up":
+				return FAThumbsOUp;
+
+			case "fa-thumbs-up":
+				return FAThumbsUp;
+
+			case "fa-ticket":
+				return FATicket;
+
+			case "fa-times":
+				return FATimes;
+
+			case "fa-times-circle":
+				return FATimesCircle;
+
+			case "fa-times-circle-o":
+				return FATimesCircleO;
+
+			case "fa-tint": 
+				return FATint;
+
+			case "fa-toggle-down":
+				return FAToggleDown;
+
+			case "fa-toggle-left":
+				return FAToggleLeft;
+
+			case "fa-toggle-off":
+				return FAToggleOff;
+
+			case "fa-toggle-on":
+				return FAToggleOn;
+
+			case "fa-toggle-right":
+				return FAToggleRight;
+
+			case "fa-toggle-up":
+				return FAToggleUp;
+
+			case "fa-trash":
+				return FATrash;
+
+			case "fa-trash-o":
+				return FATrashO;
+
+			case "fa-tree":
+				return FATree;
+
+			case "fa-trello":
+				return FATrello;
+
+			case "fa-trophy":
+				return FATrophy;
+
+			case "fa-truck":
+				return FATruck;
+
+			case "fa-try":
+				return FATry;
+
+			case "fa-tty":
+				return FATty;
+
+			case "fa-tumblr":
+				return FATumblr;
+
+			case "fa-tumblr-square": 
+				return FAtTumblrSquare;
+
+			case "fa-turkish-lira":
+				return FATurkishLira;
+
+			case "fa-twitch":
+				return FATwitch;
+
+			case "fa-twitter":
+				return FATwitter;
+
+			case "fa-twitter-square":
+				return FATwitterSquare;
+
+			case "fa-umbrella":
+				return FAUmbrella;
+
+			case "fa-underline":
+				return FAUnderline;
+
+			case "fa-undo":
+				return FAUndo;
+
+			case "fa-university":
+				return FAUniversity; 
+
+			case "fa-unlink": 
+				return FAUnlink;
+
+			case "fa-unlock":
+				return FAUnlock;
+
+			case "fa-unlock-alt":
+				return FAUnlockAlt;
+
+			case "fa-unsorted":
+				return FAUnsorted;
+
+			case "fa-upload":
+				return FAUpload;
+
+			case "fa-usd":
+				return FAUSD;
+
+			case "fa-user":
+				return FAUser;
+
+			case "fa-user-md":
+				return FAUserMd;
+
+			case "fa-users":
+				return FAUsers;
+
+			case "fa-video-camera":
+				return FAVideoCamera;
+
+			case "fa-vimeo-square":
+				return FAVimeoSquare;
+
+			case "fa-vine":
+				return FAVine;
+
+			case "fa-vk":
+				return FAVK;
+
+			case "fa-volume-down":
+				return FAVolumeDown;
+
+			case "fa-volume-off":
+				return FAVolumeOff;
+
+			case "fa-volume-up":
+				return FAVolumeUp;
+
+			case "fa-warning":
+				return FAWarning;
+
+			case "fa-wechat":
+				return FAWechat;
+
+			case "fa-weibo":
+				return FAWeibo;
+
+			case "fa-weixin":
+				return FAWeixin;
+
+			case "fa-wheelchair":
+				return FAWheelchair;
+
+			case "fa-wifi": 
+				return FAWifi;
+
+			case "fa-windows":
+				return FAWindows;
+
+			case "fa-won":
+				return FAWon;
+
+			case "fa-wordpress":
+				return FAWordpress;
+
+			case "fa-wrench":
+				return FAWrench;
+
+			case "fa-xing":
+				return FAXing;
+
+			case "fa-xing-square":
+				return FAXingSquare;
+
+			case "fa-yahoo": 
+				return FAYahoo;
+
+			case "fa-yelp":
+				return FAYelp;
+
+			case "fa-yen":
+				return FAYen;
+
+			case "fa-youtube":
+				return FAYoutube;
+
+			case "fa-youtube-play":
+				return FAYoutubePlay;
+
+			case "fa-youtube-square":
+				return FAYoutubeSquare;
+			default:
+				return FABolt;
+			}
+		}
+
+//		public static string FontAwesomeIconStringForIconCode(string code){
+//			switch(code){
+//			case "&#xf042;":
+//				return FAAdjust;
+//			default:
+//				return FABolt;
+//			}
+//		}
 			
+
 		public static string FAAdjust = "\uf042";
 		public static string FAAdn = "\uf170";
 		public static string FAAlignCenter = "\uf037"; 
