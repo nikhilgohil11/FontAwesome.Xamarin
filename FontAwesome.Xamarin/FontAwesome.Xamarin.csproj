@@ -46,7 +46,4 @@
     <Compile Include="FontAwesomeException.cs" />
     <Compile Include="FAButton.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="LICENSE" />
-  </ItemGroup>
 </Project>

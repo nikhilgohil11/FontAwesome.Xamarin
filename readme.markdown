@@ -56,3 +56,10 @@ var deleteBtn = new FAButton (FontAwesome.FATrashO, UIColor.White, 20) {
   Frame = new RectangleF (0 , 0, 25, 25)
 };
 ```
+
+###License
+This module is licensed under the MIT license.
+
+Copyright (C) 2015 by Nikhil Gohil
+
+http://nikhilgohil11.mit-license.org
